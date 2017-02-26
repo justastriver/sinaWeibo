@@ -1,18 +1,18 @@
-from spider.cnbeta import CnbetaParser
-from spider.cnblog import CnblogParser
+#from spider.cnbeta import CnbetaParser
+#from spider.cnblog import CnblogParser
 from spider.miaopai import MiaopaParser
-from spider.myBlog import MyBlogParser
-from spider.techweb import TechwebParser
-from spider.tuicool import TuicoolParser
+#from spider.myBlog import MyBlogParser
+#from spider.techweb import TechwebParser
+#from spider.tuicool import TuicoolParser
 
 spiders = [ 
-          MyBlogParser(),
-          CnbetaParser(),
-          CnblogParser(),
+#          MyBlogParser(),
+#          CnbetaParser(),
+#          CnblogParser(),
           MiaopaParser(),
-          MyBlogParser(),
-          TechwebParser(),
-          TuicoolParser() 
+#          MyBlogParser(),
+#          TechwebParser(),
+#          TuicoolParser() 
         ]
 
 currentIndex = 0

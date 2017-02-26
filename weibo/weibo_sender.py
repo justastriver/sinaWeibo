@@ -1,5 +1,8 @@
+#coding:utf-8
 import time
-
+import sys  
+reload(sys)
+sys.setdefaultencoding('utf8')
 from weibo.weibo_message import WeiboMessage
 from config import add_watermark, watermark_url, watermark_nike
 from config import max_images

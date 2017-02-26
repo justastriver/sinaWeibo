@@ -7,7 +7,7 @@ class Spider(object):
             self.homeUrl = homeUrl
 
       def download_text(self):
-            '''get raw text such as html、json、or so on'''
+            '''get raw text such as html,json,or so on'''
             text = zHTTP.get( self.homeUrl )
             return text
 

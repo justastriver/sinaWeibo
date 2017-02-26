@@ -1,6 +1,6 @@
 import bs4
 
-from spider.spider import Spider
+from spider import Spider
 from weibo.weibo_message import WeiboMessage
 
 HOME_URL = "http://www.cnblogs.com"
